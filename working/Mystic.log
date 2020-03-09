@@ -1,0 +1,63 @@
+---- qbsp / ericw-tools v0.18.1 ----
+Input file: Mystic.map
+Output file: Mystic.bsp
+
+---- LoadMapFile ----
+         1338 faces
+          223 brushes
+          398 entities
+            4 unique texnames
+          106 texinfo
+
+Opened WAD: C:/QuakeDev/wads/prototype_1_2.wad
+Processing hull 0...
+---- Brush_LoadEntity ----
+          223 brushes
+          148 planes
+---- CSGFaces ----
+         1338 brushfaces
+         1270 csgfaces
+         1140 mergedfaces
+---- SolidBSP ----
+         1724 split nodes
+          669 solid leafs
+         1035 empty leafs
+           21 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+         2792 leaffaces
+         2700 nodefaces
+---- Portalize ----
+         1056 vis leafs
+         1056 vis clusters
+         3142 vis portals
+---- FillOutside ----
+*** WARNING 10: Reached occupant at (-360 -936 248), no filling performed.
+Leak file written to Mystic.pts
+---- MakeFaceEdges ----
+---- GrowRegions ----
+Processing hull 1...
+*** WARNING 10: Reached occupant at (-360 -936 248), no filling performed.
+Processing hull 2...
+*** WARNING 10: Reached occupant at (-360 -936 248), no filling performed.
+---- WriteBSPFile ----
+Wrote Mystic.bsp
+          260 planes             5200
+         3199 vertexes          38388
+         1724 nodes             41376
+           76 texinfo            3040
+         2700 faces             54000
+         3400 clipnodes         27200
+         1057 leafs             29596
+         2792 marksurfaces       5584
+        10800 surfedges         43200
+         6877 edges             27508
+            4 textures          70900
+              lightdata             0
+              visdata               0
+              entdata           19322
+
+0.446 seconds elapsed
+Peak memory usage: 15448944 (14.7M)
