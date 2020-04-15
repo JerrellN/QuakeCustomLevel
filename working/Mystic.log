@@ -3,61 +3,62 @@ Input file: Mystic.map
 Output file: Mystic.bsp
 
 ---- LoadMapFile ----
-         1338 faces
-          223 brushes
-          398 entities
-            4 unique texnames
-          106 texinfo
+         1554 faces
+          259 brushes
+          668 entities
+           12 unique texnames
+          477 texinfo
 
-Opened WAD: C:/QuakeDev/wads/prototype_1_2.wad
+Opened WAD: C:/Users/Owner/Documents/GitHub/QuakeCustomLevel/wads/hipnotic.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-          223 brushes
-          150 planes
+          259 brushes
+          272 planes
 ---- CSGFaces ----
-         1338 brushfaces
-         1276 csgfaces
-         1145 mergedfaces
+         1554 brushfaces
+         1548 csgfaces
+         1473 mergedfaces
 ---- SolidBSP ----
-         1736 split nodes
-          673 solid leafs
-         1043 empty leafs
-           21 water leafs
+         1965 split nodes
+          767 solid leafs
+         1173 empty leafs
+           26 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         2823 leaffaces
-         2723 nodefaces
+         3403 leaffaces
+         3308 nodefaces
 ---- Portalize ----
-         1064 vis leafs
-         1064 vis clusters
-         3165 vis portals
+         1199 vis leafs
+         1199 vis clusters
+         3832 vis portals
 ---- FillOutside ----
-*** WARNING 10: Reached occupant at (-360 -936 248), no filling performed.
+*** WARNING 10: Reached occupant at (-3292 307 464), no filling performed.
 Leak file written to Mystic.pts
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
-*** WARNING 10: Reached occupant at (-360 -936 248), no filling performed.
+*** WARNING 10: Reached occupant at (-3292 307 464), no filling performed.
 Processing hull 2...
-*** WARNING 10: Reached occupant at (-360 -936 248), no filling performed.
+*** WARNING 10: Reached occupant at (-3292 307 464), no filling performed.
+*** WARNING 16: Texture 128_blood_3 not found
 ---- WriteBSPFile ----
 Wrote Mystic.bsp
-          260 planes             5200
-         3224 vertexes          38688
-         1736 nodes             41664
-           76 texinfo            3040
-         2723 faces             54460
-         3447 clipnodes         27576
-         1065 leafs             29820
-         2823 marksurfaces       5646
-        10892 surfedges         43568
-         6927 edges             27708
-            4 textures          70900
+          603 planes            12060
+         3857 vertexes          46284
+         1965 nodes             47160
+          401 texinfo           16040
+         3308 faces             66160
+         3917 clipnodes         31336
+         1200 leafs             33600
+         3403 marksurfaces       6806
+        13232 surfedges         52928
+         8294 edges             33176
+           17 textures          87752
               lightdata             0
               visdata               0
-              entdata           19322
+              entdata           41983
 
-0.567 seconds elapsed
-Peak memory usage: 15618250 (14.9M)
+0.605 seconds elapsed
+Peak memory usage: 18789270 (17.9M)

@@ -4,31 +4,32 @@ running with 8 threads
 LoadBSPFile: 'Mystic.bsp'
 BSP is version 29
 --- LoadEntities ---
-398 entities read, 378 are lights.
+668 entities read, 640 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
 	0 sky faces
-	2673 solid faces
+	3254 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 378 initial lights
-SetupLights: 378 after surface lights
-SetupLights: 378 after jittering
-WARNING: couldn't nudge light in solid at 696.000000 -312.000000 248.000000
+SetupLights: 640 initial lights
+SetupLights: 640 after surface lights
+SetupLights: 640 after jittering
+WARNING: couldn't nudge light in solid at -628.000000 628.000000 464.000000
+WARNING: couldn't nudge light in solid at -2428.000000 419.000000 464.000000
 --- EstimateLightVisibility ---
 0....1....2....3....4....5....6....7....8....9....
-Final count: 378 lights 0 suns in use.
+Final count: 640 lights 0 suns in use.
 --- LightWorld ---
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 58996
+lightdatasize: 85538
 0 switchable light styles (32 max)
 Writing Mystic.bsp as BSP version 29
-0.500 seconds elapsed
+0.393 seconds elapsed
 
 stats:
-11.177524 lights tested, 6.489311 hits per sample point
+5.726698 lights tested, 4.312066 hits per sample point
 0.000000 bounce lights tested, 0.000000 hits per sample point
 0 empty lightmaps
